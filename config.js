@@ -30,7 +30,7 @@ module.exports = {
     ANTILINK_WARN: process.env.ANTILINK_WARN || '',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
-        API_KEY: process.env.HEROKU_API_KEY || '',
+        API_KEY: process.env.HEROKU_API_KEY || ''.
         APP_NAME: process.env.HEROKU_APP_NAME || ''
     },
     DATABASE_URL: DATABASE_URL,
